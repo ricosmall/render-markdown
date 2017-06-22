@@ -1,0 +1,23 @@
+{
+  "name": "transmarkdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "transmarkdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0",
+    "github": "^9.2.0",
+    "marked": "^0.3.6",
+    "validate-commit-msg": "^2.12.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
